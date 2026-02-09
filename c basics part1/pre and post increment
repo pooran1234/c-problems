@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int a=5;
+    
+    printf("pre=%d ",++a);
+    
+    printf("post=%d",a++);
+    return 0;
+}
