@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a=33;
+    if(a>=10&&a<=50){
+        printf("yes");
+    }else{
+        printf("no");
+    }
+    
+    return 0;
+}
