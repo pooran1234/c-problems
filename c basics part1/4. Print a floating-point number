@@ -1,5 +1,7 @@
+
 #include<stdio.h>
 int main(){
-    printf("10.5");
+    float num=10.5;
+    printf("%f",num);
     return 0;
 }
