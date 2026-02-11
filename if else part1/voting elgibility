@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main(){
+    int a=20;
+    if(a>=18){
+        printf("elgible for voting");
+    }else{
+        printf("not elgible for voting");
+    }
+    return 0;
+}
