@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int m=55;
+    if(m>=90 && m<=100){
+        printf("A grade");
+    }else if(m>=75 && m<=89){
+        printf("B grade");
+    }else if(m>=60 && m<=74){
+        printf("C grade");
+    }else{
+        printf("F grade");
+    }
+    return 0;
+    
+}
