@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    char ch='5';
+    if(ch>=48&&ch<=57){
+        printf("digit");
+    }
+    else{
+        printf("not a digit");
+    }
+    return 0;
+}
