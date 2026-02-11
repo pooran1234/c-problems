@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int n=2;
+    if(n%2==0){
+        printf("positive");
+    }else{
+        printf("negative");}
+        return 0;
+}
