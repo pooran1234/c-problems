@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int bill,units;
+    scanf("%d",&units);
+    if(units>0){
+        bill=units*5;}
+        else {bill=0;
+    }
+    printf("%d",bill);
+return 0;
+}
