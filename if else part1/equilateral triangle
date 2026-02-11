@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int a=60,b=60,c=60;
+    if(a==b &&b==c){
+        printf("equalateral triangle");
+    }
+    else{
+        printf("not a equalateral triangle");
+    }
+    return 0;
+}
