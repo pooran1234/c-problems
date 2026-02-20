@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int charge;
+    scanf("%d",&charge);
+    if(charge>=499){
+        printf("free delivery");
+    }
+    else{
+        printf("delivery charge applied");
+    }
+    return 0;
+}
