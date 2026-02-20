@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int att;
+    scanf("%d",&att);
+    if(att>=75){
+        printf("eligible for exam");
+    }
+    else{
+        printf("not eligible ");
+    }
+    return 0;
+}
