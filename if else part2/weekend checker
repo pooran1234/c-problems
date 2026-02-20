@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main(){
+    int num;
+    scanf("%d",&num);
+    if(num>=1&&num<=5){
+        printf("weekday");
+    }
+    else if(num>=6&&num<=7){
+        printf("weekend");
+    }
+    else{
+        printf("does not exist");
+    }
+    return 0;
+}
