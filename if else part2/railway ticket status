@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+    int ticket;
+    scanf("%d",&ticket);
+    if(ticket>=1&&ticket<=9){
+        printf("confirmed");
+    }
+    else if(ticket==0){
+        printf("waiting list");
+    }
+    return 0;
+    }
