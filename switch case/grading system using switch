@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main(){
+    int marks;
+    scanf("%d",&marks);
+    switch(marks/10){
+        case 9:
+        printf("grade A");
+        break;
+
+        case 8:
+        printf("grade B");
+        break;
+
+        case 7:
+        printf("grade C");
+        break;
+
+        case 6:
+        printf("grade d");
+        break;
+
+        case 5:
+        printf("grade e");
+        break;
+
+        case 4:
+        printf("grade f");
+        break;
+        
+        case 3:
+        printf("supplementary");
+        break;
+
+        default:
+        printf("fail");
+        break;
+    }
+    return 0;
+}
