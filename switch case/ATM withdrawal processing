@@ -1,0 +1,36 @@
+#include <stdio.h>
+
+int main() {
+    int accountType, balance, withdrawAmount;
+
+    // Input
+    scanf("%d", &accountType);
+    scanf("%d", &balance);
+    scanf("%d", &withdrawAmount);
+
+    switch(accountType) {
+
+        case 1:   // Savings Account
+            if(balance >= withdrawAmount) {
+                printf("Withdrawal Successful");
+            } else {
+                printf("Insufficient Balance");
+            }
+            break;
+
+        case 2:   // Current Account
+            if(withdrawAmount > 5000) {
+                printf("Limit Exceeded");
+            } else if(balance >= withdrawAmount) {
+                printf("Withdrawal Successful");
+            } else {
+                printf("Insufficient Balance");
+            }
+            break;
+
+        default:
+            printf("Invalid Account Type");
+    }
+
+    return 0;
+}
