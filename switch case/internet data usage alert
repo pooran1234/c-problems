@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+    int type;
+    int used=0;
+    scanf("%d",&type);
+    scanf("%d",&used);
+    switch(type){
+        case 1:
+        if(used<=1){
+            printf("normal speed");
+        }
+        else{
+            printf("speed reduced");
+        }
+        break;
+        case 2:
+        if(used<=2){
+            printf("normal speed");
+        }
+        else{
+            printf("extra charges applied");
+        }
+        break;
+        default:
+        printf("invalid type");
+    }
+    return 0;
+}
