@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main(){
+    int orderamount;
+    int speedtype;
+int amount=0;
+    printf("enter orderamount:");
+    scanf("%d",&orderamount);
+    printf("enter speedtype");
+    scanf("%d",&speedtype);
+
+    switch(speedtype){
+        case 1:
+        amount=50;
+        break;
+        case 2:
+         if (orderamount<1000){
+            amount=100;
+            
+         }
+         else{
+            amount=0;
+         }
+         break;
+         default :
+         printf("invalid speed type");
+         return 0;
+    }
+    printf("%d",amount);
+    return 0;
+}
