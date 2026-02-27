@@ -1,0 +1,28 @@
+#include<stdio.h>
+int main(){
+    int accounttype;
+    int intrest;
+    int years;
+    printf("enter accounttype:");
+    scanf("%d",&accounttype);
+    printf("enter years:");
+    scanf("%d",&years);
+    switch(accounttype){
+    case 1:
+    intrest=4;
+    break;
+    case 2:
+    if(years<=3){
+        intrest=5;
+    }
+    else{
+        intrest=7;                         ;
+    }
+    break;
+    default:
+    printf("invalid accounttype");
+    return 0;
+    }
+    printf("%d",intrest);
+    return 0;
+}
