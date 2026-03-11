@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main()
+{
+    int n, marks, total = 0, count = 0;
+    float avg;
+
+    scanf("%d", &n);
+
+    for(int i = 1; i <= n; i++)
+    {
+        scanf("%d", &marks);
+
+        total = total + marks;
+
+        if(marks < 40)
+        {
+            count++;
+        }
+    }
+
+    avg = total / n;
+
+    printf("Average Score: %.0f\n", avg);
+    printf("Failed Subjects: %d", count);
+
+    return 0;
+}
